@@ -2,13 +2,6 @@
 
 public class CharacterManager : MonoBehaviour
 {
-    // class cha chung cho cả player và enemy, có thể để các hàm chung ở đây
-    // như là HandleDamage, HandleDeath, v.v.
-
-    // vì ko có playerHealthManager nên sẽ làm thêm CharacterHealthManager, sau đó playerHealthManager sẽ kế thừa từ CharacterHealthManager, và enemyHealthManager cx vậy
-    //[Header("Character")]
-    //[SerializeField] CharacterHealthManager characterHealthManager;
-
     protected virtual void Awake()
     {
         //if (characterHealthManager == null) characterHealthManager = GetComponent<CharacterHealthManager>();
